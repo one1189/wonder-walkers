@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
 
-/** Nav bar styling**/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/* Nav bar styling */
 #nav-bar {
     font-family: "Encode sans", sans-serif;
     background-color: hsl(0, 0%, 97%);
@@ -20,6 +25,17 @@
     padding-bottom: 20px;
 }
 
+#nav-bar li a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #383838;
+}
+
+#nav-bar li a:hover {
+    background-color: #383838;
+    color:hsl(0, 0%, 97%);
+}
+
 #nav-bar img {
     height: 300px;
     width: 100%;
@@ -27,5 +43,6 @@
 
 #nav-bar footer {
     text-align: center;
-    align-items: flex-end;
 }
+
+/*Page header*/
