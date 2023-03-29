@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
+
+/** Nav bar styling**/
+#nav-bar {
+    font-family: "Encode sans", sans-serif;
+    background-color: #f7f7f7;
+}
