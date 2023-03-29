@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family: "Encode sans", sans-serif;
 }
 /* Nav bar styling */
+
 #nav-bar {
-    font-family: "Encode sans", sans-serif;
     background-color: hsl(0, 0%, 97%);
     width: 30%;
     height: 100%;
@@ -57,9 +58,44 @@
     float: right;
 }
 
+#header h1 {
+    float: right;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Get header to be above mountain in image */
+
 /* Home page */
 #intro {
     width: 70%;
     text-align: center;
     float: right;
+}
+
+#intro h2 {
+    font-weight: bolder;
+    font-size: 32px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.intro-para {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+}
+
+.intro-para img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.why-para {
+    float: left;
 }
