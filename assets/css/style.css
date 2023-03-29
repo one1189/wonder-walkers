@@ -133,3 +133,38 @@
     width: 400px;
     border-radius: 50%;
 }
+
+/*Contact page*/
+
+#contact-container {
+    width: 70%;
+    text-align: center;
+    float: right;
+    height: 100%;
+}
+#contact-us {
+    margin-top: 10px;
+    border: solid 1px #383838;
+}
+
+#contact-container p {
+    margin-top: 10px;
+}
+
+/*Equipment page*/
+
+#equipment-container {
+    width: 70%;
+    text-align: center;
+    float: right;
+    height: 100%;
+}
+
+/*Walks page*/
+
+#walks-container {
+    width: 70%;
+    text-align: center;
+    float: right;
+    height: 100%;
+}

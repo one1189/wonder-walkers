@@ -49,13 +49,11 @@
     </header>
    
 
-    <section id="master-container">
-        <img src="/assets/images/wheelchair-climber.jpeg" aria-label="wheelchair user climbing" id="contact-image">
-        <form action="thanks.html" id="contact-us">
+    <section id="contact-container">
             <p>Our services are designed to get you out and about. If you feel that this may prove difficult for you and you require assistance, we can put you in touch with the right people.</p>
-            <p>Please fill out our form below</p>
-            <br>
-
+            <p>Please fill out our form below:</p>
+        <form action="thanks.html" id="contact-us">
+            
             <label for="fname">First Name: </label>
             <input type="text" id="fname" name="first_name" required>
 
@@ -73,7 +71,7 @@
             <input type="checkbox" id="conprefphone" name="phone" value="Phone">
             <label for="conprefemail">Email</label>
             <input type="checkbox" id="conprefemail" name="email" value="Email">
-
+            <br>
             <p>Please offer a brief description of the assistance you require: </p>
             <label for="description"></label>
             <input type="text" id="description" name="description" min="0" max="200" placeholder="max. 200 characters">
@@ -81,6 +79,7 @@
             <input type="submit" value="Submit" id="submit">
 
         </form>
+        <img src="/assets/images/wheelchair-climber.jpeg" aria-label="wheelchair user climbing" id="contact-image">
     </section>
 
     <footer id="main-footer">
