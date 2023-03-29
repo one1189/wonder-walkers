@@ -9,39 +9,43 @@
 }
 /* Nav bar styling */
 
-#nav-bar {
+.nav-bar {
     background-color: hsl(0, 0%, 97%);
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
     height: 100%;
-    float: left;
     position: fixed;
+    align-items: stretch;
 }
 
-#nav-bar li {
+.nav-bar li {
     display: flex;
     justify-content: center;
     list-style-type: none;
     color: #383838;
     font-size: 32px;
     padding-bottom: 20px;
-    margin: 5px 30px 0 0;
+    margin: 5px 0 0 0;
 }
 
-#nav-bar li a {
+.nav-bar li a {
     text-decoration: none;
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
     color: #383838;
 }
 
-#nav-bar li a:hover {
+.nav-bar li a:hover {
     background-color: #383838;
     color:hsl(0, 0%, 97%);
 }
 
-#nav-bar img {
-    margin: 20px 0 0 0;
+.nav-bar img {
+    display: flex;
+    justify-content: center;
     height: 300px;
-    width: 100%;
+    width: 300px;
 }
 
 .nav-bar-footer {
@@ -49,7 +53,15 @@
     color:#383838;
 }
 
-/* Current issue with hover characteristic on footer icons */
+.nav-bar-footer p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.nav-bar-footer li a:hover {
+    background-color: hsl(0, 0%, 97%);
+}
 
 /* Main footer free code camp*/
 
