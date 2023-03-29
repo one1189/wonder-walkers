@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     font-family: "Encode sans", sans-serif;
+    color:#383838;
 }
 /* Nav bar styling */
 
@@ -50,6 +51,18 @@
 
 /* Current issue with hover characteristic on footer icons */
 
+/* Main footer free code camp*/
+
+#main-footer {
+    position: relative;
+    bottom: 0;
+    width: 70%;
+    height: 2.5rem;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
 /*Page header*/
 
 #hero-image {
@@ -63,22 +76,30 @@
     width: 70%;
     display: flex;
     justify-content: flex-end;
+    position: absolute;
 }
 
 /* Get header to be above mountain in image */
 
 /* Home page */
-#intro {
+
+#master-container {
     width: 70%;
     text-align: center;
     float: right;
+    height: 100%;
 }
 
-#intro h2 {
+#master-container h2 {
     font-weight: bolder;
     font-size: 32px;
     padding-bottom: 10px;
     text-decoration: underline;
+}
+
+.container {
+    height: 30%;
+    display: block
 }
 
 .intro-para {
@@ -93,9 +114,22 @@
     width: 400px;
     border-radius: 50%;
     display: flex;
-    align-items: flex-end;
+    align-self: flex-end;
 }
 
 .why-para {
-    float: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.why-para img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.goals-para img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
 }
