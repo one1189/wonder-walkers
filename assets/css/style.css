@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
 
+/*Body Styling*/
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +19,8 @@
     height: 100%;
     position: fixed;
     align-items: stretch;
+    justify-content: space-around;
+    overflow: hidden;
 }
 
 .nav-bar li {
@@ -25,7 +29,6 @@
     list-style-type: none;
     color: #383838;
     font-size: 32px;
-    padding-bottom: 20px;
     margin: 5px 0 0 0;
 }
 
@@ -34,6 +37,7 @@
     display: flex;
     justify-content: center;
     color: #383838;
+    line-height: 1.6;
 }
 
 .nav-bar li a:hover {
@@ -44,13 +48,14 @@
 .nav-bar img {
     display: flex;
     justify-content: center;
-    height: 300px;
+    height: 200px;
     width: 300px;
 }
 
-.nav-bar-footer {
-    text-align: center;
-    color:#383838;
+.nav-bar-footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .nav-bar-footer p {
@@ -60,6 +65,23 @@
 }
 
 .nav-bar-footer li a:hover {
+    background-color: hsl(0, 0%, 97%);
+}
+
+/* Hero image and Page heading*/
+
+.page-header {
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+    width: 100%;
+    background: url('../images/trekking-in-japan.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
     background-color: hsl(0, 0%, 97%);
 }
 
