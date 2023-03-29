@@ -42,8 +42,24 @@
     width: 100%;
 }
 
-#nav-bar footer {
+.nav-bar-footer {
     text-align: center;
+    color:#383838;
 }
 
+/* Current issue with hover characteristic on footer icons */
+
 /*Page header*/
+
+#hero-image {
+    height: 500px;
+    width: 70%;
+    float: right;
+}
+
+/* Home page */
+#intro {
+    width: 70%;
+    text-align: center;
+    float: right;
+}
