@@ -101,25 +101,8 @@ h1 {
     background-color: #f7f7f7;
     justify-content: center;
 }
-/*Page header*/
 
-#hero-image {
-    height: 500px;
-    width: 70%;
-    float: right;
-}
-
-#header h1 {
-    float: right;
-    width: 70%;
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-}
-
-/* Get header to be above mountain in image */
-
-/* Home page */
+/* Index page */
 
 .master-container {
     width: 80%;
@@ -135,7 +118,7 @@ h1 {
     text-decoration: underline;
 }
 
-.container {
+.index-container {
     height: 30%;
     display: block
 }
