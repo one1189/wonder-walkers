@@ -317,6 +317,33 @@ h1 {
         flex-direction: row;
     }
 
+    .nav-bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: auto;
+        width: auto;
+    }
+
+    .nav-bar li {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        list-style-type: none;
+        color: #383838;
+        font-size: 16px;
+        margin: 5px 0 0 0;
+        padding: 0 5px 0 0;
+    }
+    
+    .nav-bar img {
+        display: none;
+    }
+
+    .nav-bar-footer p {
+        display: none;
+    }
+
     /*Hero image and page heading*/
     .page-header {
         height: 300px;
