@@ -166,19 +166,34 @@ h1 {
 
 /*Contact page*/
 
-#contact-container {
-    width: 70%;
+.contact-container {
+    width: 80%;
     text-align: center;
     float: right;
     height: 100%;
-}
-#contact-us {
-    margin-top: 10px;
-    border: solid 1px #383838;
+    display: flex;
+    flex-direction: column;
 }
 
-#contact-container p {
+.contact-form {
     margin-top: 10px;
+    border: none;
+    height: 300px;
+    background-color:#f7f7f7
+}
+
+.contact-container p {
+    margin-top: 10px;
+}
+
+.form-container img {
+    border-radius: 50px;
+    height: 400px;
+}
+
+#description {
+    width: 400px;
+    height: 50px;
 }
 
 /*Equipment page*/

@@ -61,42 +61,44 @@
     <div class="page-header"></div>
     <h1>Contact Us</h1>
 
-
-    <section id="contact-container">
+    <!--Main Content-->
+    <section class="contact-container">
         <p>Our services are designed to get you out and about. If you feel that this may prove difficult for you and you
             require assistance, we can put you in touch with the right people.</p>
         <p>Please fill out our form below:</p>
-        <form action="thanks.html" id="contact-us">
+        <div class="form-container">
+            <img src="assets/images/wheelchair-climber.jpeg" alt="Wheelchair user climbing a rock face">
+            <form action="thanks.html" class="contact-form">
 
-            <label for="fname">First Name: </label>
-            <input type="text" id="fname" name="first_name" required>
-
-            <label for="lname">Last Name: </label>
-            <input type="text" id="lname" name="last_name" required>
-
-            <label for="email">Email Address: </label>
-            <input type="email" id="email" name="email_address" placeholder="ex: jo123@gmail.com" required>
-
-            <label for="connum">Contact Number: </label>
-            <input type="tel" id="connum" name="contact_number" placeholder="+44" minlength="10" required>
-
-            <p>How can we contact you?</p>
-            <label for="conprefphone">Phone</label>
-            <input type="checkbox" id="conprefphone" name="phone" value="Phone">
-            <label for="conprefemail">Email</label>
-            <input type="checkbox" id="conprefemail" name="email" value="Email">
-            <br>
-            <p>Please offer a brief description of the assistance you require: </p>
-            <label for="description"></label>
-            <input type="text" id="description" name="description" min="0" max="200" placeholder="max. 200 characters">
-            <br>
-            <input type="submit" value="Submit" id="submit">
-
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="first_name" required>
+                <br>
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" name="last_name" required>
+                <br>
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email_address" placeholder="ex: jo123@gmail.com" required>
+                <br>
+                <label for="connum">Contact Number: </label>
+                <input type="tel" id="connum" name="contact_number" placeholder="+44" minlength="10" required>
+                <br>
+                <p>How can we contact you?</p>
+                <label for="conprefphone">Phone</label>
+                <input type="checkbox" id="conprefphone" name="phone" value="Phone">
+                <label for="conprefemail">Email</label>
+                <input type="checkbox" id="conprefemail" name="email" value="Email">
+                <br>
+                <p>Please offer a brief description of the assistance you require: </p>
+                <label for="description"></label>
+                <textarea type="text" id="description" name="description" min="0" max="200"
+                    placeholder="max. 200 characters"></textarea>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+        </div>
         </form>
-        <img src="/assets/images/wheelchair-climber.jpeg" aria-label="wheelchair user climbing" id="contact-image">
     </section>
 
-    <footer class=footer">
+    <footer class="footer">
         <p>Copyright CodeOne11 2023. A project developed for Code Institute.</p>
     </footer>
 
