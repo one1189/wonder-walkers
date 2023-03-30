@@ -243,3 +243,12 @@ h1 {
 .thank-you-image {
     border-radius: 10px;
 }
+
+.be-in-touch a {
+    background-color:#383838;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
