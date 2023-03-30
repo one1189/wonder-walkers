@@ -301,3 +301,51 @@ h1 {
     font-size: 20px;
     padding-bottom: 5px;
 }
+
+/*Media queries*/
+
+@media screen and (max-width: 820px) {
+    .nav-bar {
+        background-color: hsl(0, 0%, 97%);
+        display: flex;
+        width: 100%;
+        height: 30px;
+        position: fixed;
+        align-items: stretch;
+        justify-content: space-around;
+        overflow: hidden;
+        flex-direction: row;
+    }
+
+    /*Hero image and page heading*/
+    .page-header {
+        height: 300px;
+        width: 100%;
+        background: url('../images/trekking-in-japan.jpeg') no-repeat center center;
+        background-size: cover;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        background-color: hsl(0, 0%, 97%);
+        width: 100%;
+        text-transform: uppercase;
+    }
+
+    .footer {
+        display: flex;
+        width: 100%;
+        padding-top: 10px;
+        text-align: center;
+        font-style: italic;
+        background-color: #f7f7f7;
+        justify-content: center;
+    }
+
+    .master-container {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+}
