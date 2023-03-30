@@ -230,11 +230,13 @@ h1 {
 
 .footwear iframe {
     padding: 10px 0 0 0;
+    width: 560px;
+    height: 320px;
 }
 
 .hydration img {
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: 100%;
 }
 
 /*walks.html page*/
@@ -408,6 +410,14 @@ h1 {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .form-container img {
+        border-radius: 50px;
+        height: auto;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 560px) {
     h1 {
         display: flex;
@@ -416,5 +426,23 @@ h1 {
         width: 100%;
         text-transform: uppercase;
         font-size: 20px;
+    }
+
+    .footwear iframe {
+        width: 280px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav-bar li {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        list-style-type: none;
+        color: #383838;
+        font-size: 12px;
+        margin: 5px 0 0 0;
+        padding: 0 5px 0 0;
     }
 }
