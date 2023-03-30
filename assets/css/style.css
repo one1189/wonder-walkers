@@ -15,7 +15,7 @@
     background-color: hsl(0, 0%, 97%);
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 20%;
     height: 100%;
     position: fixed;
     align-items: stretch;
@@ -48,8 +48,8 @@
 .nav-bar img {
     display: flex;
     justify-content: center;
-    height: 200px;
-    width: 300px;
+    height: auto;
+    width: auto;
 }
 
 .nav-bar-footer ul {
@@ -74,28 +74,32 @@
     display: flex;
     align-items: flex-end;
     height: 500px;
-    width: 100%;
+    width: 80%;
     background: url('../images/trekking-in-japan.jpeg') no-repeat center center;
     background-size: cover;
+    float: right;
 }
 
 h1 {
     display: flex;
     justify-content: center;
     background-color: hsl(0, 0%, 97%);
+    width: 80%;
+    float: right;
+    text-transform: uppercase;
 }
 
-/* Main footer free code camp*/
+/* Main footer*/
 
-#main-footer {
-    position: relative;
-    bottom: 0;
-    width: 70%;
-    height: 2.5rem;
+.footer {
+    display: flex;
+    width: 80%;
     float: right;
     padding-top: 10px;
     text-align: center;
     font-style: italic;
+    background-color: #f7f7f7;
+    justify-content: center;
 }
 /*Page header*/
 
@@ -117,17 +121,17 @@ h1 {
 
 /* Home page */
 
-#master-container {
-    width: 70%;
+.master-container {
+    width: 80%;
     text-align: center;
     float: right;
     height: 100%;
 }
 
-#master-container h2 {
+.master-container h2 {
     font-weight: bolder;
     font-size: 32px;
-    padding-bottom: 10px;
+    padding: 20px 0 10px 0;
     text-decoration: underline;
 }
 
@@ -141,6 +145,7 @@ h1 {
     justify-content: center;
     height: auto;
     padding: 20px;
+    flex-direction: column;
 }
 
 .intro-para img {
@@ -148,24 +153,32 @@ h1 {
     width: 400px;
     border-radius: 50%;
     display: flex;
-    align-self: flex-end;
+    align-self: center;
+    padding: 10px;
 }
 
+.melt {
+    text-decoration: underline;
+    font-size: x-large;
+}
 .why-para {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
 }
 
 .why-para img {
     height: 400px;
     width: 400px;
     border-radius: 50%;
+    align-self: center;
+    padding: 10px;
 }
 
 .goals-para img {
     height: 400px;
     width: 400px;
     border-radius: 50%;
+    padding: 10px;
 }
 
 /*Contact page*/
