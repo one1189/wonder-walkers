@@ -375,4 +375,22 @@ h1 {
         text-align: center;
         height: 100%;
     }
+
+    /*equipment.html*/
+    .equipment-container {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /*walks.html*/
+    .walks-container {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
