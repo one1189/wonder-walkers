@@ -1,113 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A fictional charitable organisation looking to get people more active via the simple act of walking or getting outdoors">
+    <meta name="description"
+        content="A fictional charitable organisation looking to get people more active via the simple act of walking or getting outdoors">
     <meta name="keywords" content="walking, get outdoors, charity walking, get active, charitable activities">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Wonder Walkers</title>
 </head>
-<body>
-    <div id="nav-bar">
+<header>
+    <!--Navigation bar-->
+    <div class="nav-bar">
         <nav>
             <ul>
-               <li>
-                    <a href="index.html">Home</a>
-               </li> 
                 <li>
-                    <a href="equipment.html">Equipment</a>
+                    <a href="index.html" aria-label="Home page">Home</a>
                 </li>
                 <li>
-                    <a href="#">Our Walks</a>
+                    <a href="equipment.html" aria-label="Equipment page">Equipment</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact Us</a>
+                    <a href="#" aria-label="Our walk page">Our Walks</a>
+                </li>
+                <li>
+                    <a href="contact.html" aria-label="Contact us page">Contact Us</a>
                 </li>
             </ul>
         </nav>
-        <img src="/assets/images/hiking-clip-art.png" id="nav-bar-image" aria-label="black and white hiker">
-        <footer class="nav-bar-footer">
+        <img src="assets/images/hiking-clip-art.png" class="nav-bar-image" alt="black and white hiker">
+        <div class="nav-bar-footer">
             <p>Follow us:</p>
             <ul>
                 <li>
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Follow our Instagram page (opens in new tab)"><i class="fa-brands fa-square-instagram" style="color: #383838;"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"
+                        aria-label="Follow our Instagram page (opens in new tab)"><i
+                            class="fa-brands fa-square-instagram" style="color: #383838;"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com" target="_blank" aria-label="Follow our Facebook page (opens in new tab)"><i class="fa-brands fa-square-facebook" style="color: #383838;"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"
+                        aria-label="Follow our Facebook page (opens in new tab)"><i class="fa-brands fa-square-facebook"
+                            style="color: #383838;"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.alltrails.com" target="_blank" aria-label="Follow our all trails page (opens in new tab)"><i class="fa-sharp fa-solid fa-mountain-sun" style="color: #383838;"></i></a>
+                    <a href="https://www.alltrails.com" target="_blank"
+                        aria-label="Follow our all trails page (opens in new tab)"><i
+                            class="fa-sharp fa-solid fa-mountain-sun" style="color: #383838;"></i></a>
                 </li>
             </ul>
+        </div>
     </div>
-    <header id="header">
-        <img src="/assets/images/trekking-in-japan.jpeg" id="hero-image" aria-label="hikers near mount fuji">
-        <h1>Our Favourite Walks</h1>
-    </header>
-   
-    <section id="walks-container">
-        <h2>Sanctuary of Sant Salvador, Felanitx, Illes Balears, Spain</h2>
-        <img src="/assets/images/st-salvador.jpeg" aria-label="distant cross at st-salvador">
-        <img src="/assets/images/st-salvador-2.jpeg" aria-label="aerial image of st-salvador site">
-        <img src="/assets/images/st-salvador-3.jpeg" aria-label="winding road up to sanctuary">
-        <table>
-            <tr>
-                <th>Distance</th>
-                <td>8.9km-circular</td>
-            </tr>
-            <tr>
-                <th>Time</th>
-                <td>2hrs 53mins</td>
-            </tr>
-            <tr>
-                <th>Difficulty</th>
-                <td>Moderate</td>
-            </tr>
-            <tr>
-                <th>Elevation</th>
-                <td>378 metres</td>
-            </tr>
-        </table>
-        <br>
-        <p>Originally built as a form of protection from the plague, this 14th century sanctuary delivers breath-taking views to those who reach the top. The ascent benefits from a lovely café at the top.</p>
+</header>
 
-        <a href="https://www.alltrails.com/en-gb/explore/trail/spain/mallorca/felanich-sant-salvador" aria-label="Link to All trails route" target="_blank"><!--font awesome icon here-->Click for trail info</a>
-    
-        <h2>North Arden Trail - Parish Loop, Nuneaton, Warwickshire, England </h2>
-        <img src="/assets/images/north-arden-trail.jpeg" aria-label="arden trail landscape">
-        <img src="/assets/images/north-arden-trail-2.webp" aria-label="tree landscape">
-        <img src="/assets/images/north-arden-trail-3.jpeg" aria-label="canalside view on trail">
-        <table>
-            <tr>
-                <th>Distance</th>
-                <td>3.22km-circular</td>
-            </tr>
-            <tr>
-                <th>Time</th>
-                <td>1hrs 2mins</td>
-            </tr>
-            <tr>
-                <th>Difficulty</th>
-                <td>Moderately to Easy</td>
-            </tr>
-            <tr>
-                <th>Elevation</th>
-                <td>134 metres</td>
-            </tr>
-        </table>
-        <br>
-        <p>This pleasant trek in the heart of Warwickshire benefits from it's lack of knowledge (not many people know of this trail). If you're after some quiet time, this walk is ideal</p>
-        <a href="https://www.alltrails.com/en-gb/explore/trail/england/warwickshire/north-arden-trail-parish-loop?mobileMap=false&ref=sidebar-static-map" aria-label="Link to All trails route" target="_blank"><!--font awesome icon here-->Click for trail info</a>
-    
-    </section>
-    <footer id="main-footer">
-        <p>Copyright CodeOne11 2023. A project developed for Code Institute.</p>
-    </footer>
+<!--Title image and page heading-->
+<div class="page-header"></div>
+<h1>Our favourite Walks</h1>
 
-    <!--Font awesome script-->
-    <script src="https://kit.fontawesome.com/6068332f79.js" crossorigin="anonymous"></script>
+<section id="walks-container">
+    <h2>Sanctuary of Sant Salvador, Felanitx, Illes Balears, Spain</h2>
+    <img src="/assets/images/st-salvador.jpeg" aria-label="distant cross at st-salvador">
+    <img src="/assets/images/st-salvador-2.jpeg" aria-label="aerial image of st-salvador site">
+    <img src="/assets/images/st-salvador-3.jpeg" aria-label="winding road up to sanctuary">
+    <table>
+        <tr>
+            <th>Distance</th>
+            <td>8.9km-circular</td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td>2hrs 53mins</td>
+        </tr>
+        <tr>
+            <th>Difficulty</th>
+            <td>Moderate</td>
+        </tr>
+        <tr>
+            <th>Elevation</th>
+            <td>378 metres</td>
+        </tr>
+    </table>
+    <br>
+    <p>Originally built as a form of protection from the plague, this 14th century sanctuary delivers breath-taking
+        views to those who reach the top. The ascent benefits from a lovely café at the top.</p>
+
+    <a href="https://www.alltrails.com/en-gb/explore/trail/spain/mallorca/felanich-sant-salvador"
+        aria-label="Link to All trails route" target="_blank">
+        <!--font awesome icon here-->Click for trail info</a>
+
+    <h2>North Arden Trail - Parish Loop, Nuneaton, Warwickshire, England </h2>
+    <img src="/assets/images/north-arden-trail.jpeg" aria-label="arden trail landscape">
+    <img src="/assets/images/north-arden-trail-2.webp" aria-label="tree landscape">
+    <img src="/assets/images/north-arden-trail-3.jpeg" aria-label="canalside view on trail">
+    <table>
+        <tr>
+            <th>Distance</th>
+            <td>3.22km-circular</td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td>1hrs 2mins</td>
+        </tr>
+        <tr>
+            <th>Difficulty</th>
+            <td>Moderately to Easy</td>
+        </tr>
+        <tr>
+            <th>Elevation</th>
+            <td>134 metres</td>
+        </tr>
+    </table>
+    <br>
+    <p>This pleasant trek in the heart of Warwickshire benefits from it's lack of knowledge (not many people know of
+        this trail). If you're after some quiet time, this walk is ideal</p>
+    <a href="https://www.alltrails.com/en-gb/explore/trail/england/warwickshire/north-arden-trail-parish-loop?mobileMap=false&ref=sidebar-static-map"
+        aria-label="Link to All trails route" target="_blank">
+        <!--font awesome icon here-->Click for trail info</a>
+
+</section>
+<footer class="footer">
+    <p>Copyright CodeOne11 2023. A project developed for Code Institute.</p>
+</footer>
+
+<!--Font awesome script-->
+<script src="https://kit.fontawesome.com/6068332f79.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
