@@ -315,6 +315,8 @@ h1 {
 /*Media queries*/
 
 @media screen and (max-width: 820px) {
+
+    /*Navigation bar*/
     .nav-bar {
         background-color: hsl(0, 0%, 97%);
         display: flex;
@@ -370,6 +372,7 @@ h1 {
         text-transform: uppercase;
     }
 
+    /*Footer*/
     .footer {
         display: flex;
         width: 100%;
@@ -414,6 +417,8 @@ h1 {
 }
 
 @media screen and (max-width: 630px) {
+
+    /*Targets the one image on thank you page*/
     .thank-you-image {
         border-radius: 10px;
         width: 100%;
@@ -421,6 +426,8 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
+
+    /*Targets the image on contact us page*/
     .form-container img {
         border-radius: 50px;
         height: auto;
@@ -429,6 +436,8 @@ h1 {
 }
 
 @media screen and (max-width: 560px) {
+
+    /*Targets heading across all pages*/
     h1 {
         display: flex;
         justify-content: center;
@@ -438,6 +447,7 @@ h1 {
         font-size: 20px;
     }
 
+    /*Targets the video on equipment page*/
     .footwear iframe {
         width: 280px;
         height: 160px;
@@ -445,6 +455,8 @@ h1 {
 }
 
 @media screen and (max-width: 400px) {
+
+    /*Nav bar styling across all pages lower than 400px*/
     .nav-bar li {
         display: flex;
         justify-content: flex-start;
@@ -456,10 +468,12 @@ h1 {
         padding: 0 5px 0 0;
     }
 
+    /*targets text area element on contact page*/
     #description {
         width: 100%
     }
 
+    /*targgets images on all pages below 400px*/
     .intro-para img {
         height: 300px;
         width: 300px;
