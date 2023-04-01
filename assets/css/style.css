@@ -476,7 +476,7 @@ h1 {
     #description {
         width: 100%
     }
-}   
+}
 
 /*targets images on all pages below 420px*/
 @media screen and (max-width: 420px) {
