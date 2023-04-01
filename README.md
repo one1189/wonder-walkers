@@ -1,108 +1,120 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Wonder Walkers
 
-Welcome codeOne11,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The static front-end website for a fictional group, known as the Wonder Walkers. This web page has been designed to promote the benefits of being outdoors and provide some inspirational guidance to its users. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The site offers a homepage, based upon the who, what and why's of the group, followed by an equipment page, detailing some useful items for a productive outing. Also on offer, is a page dedicated to some walks undertaken by the group, along with its relevant information. Finally there is a contact us page, allowing users to get in touch with the group if they require help from external sources. 
 
-## Gitpod Reminders
+The target user is anyone looking to become more active and offer suggestions on how to go about that. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This site is part of a portfolio project, a series of five required to graduate with a diploma in full stack development from Code Institute
 
-`python3 -m http.server`
+The site needed to be static and responsive, and incorporate using HTML and CSS programming languages.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Design
 
-To log into the Heroku toolbelt CLI:
+(wireframe image)
+This is how I wanted it to look
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Navigation
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+I wanted the site to be visually pleasing and simple to use with no complex menu or navigation link. It was important for me to have the navigation bar on the left hand side of the page, as it is unusual to see I felt it would stand out. Having it fixed to the screen throughout scrolling allows the user to easily navigate throughout the site, wherever they might be.
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The bottom navigation links all open up separate tabs to instagram, facebook and all trails sites. The black and white hiker image in the navigation bar gave inspiration for the color scheme. The colors chosen were `#383838` and `#f7f7f7`. Whilst this appears to be a safe option, I feel it works really well on the site and any further colors would look messy.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Font
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The font for the website remains present throughout with no deviation. The font chosen was “Encode sans” weight 300. I feel the text is readable throughout the site, but perhaps the font size could have been bigger for larger screens.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ 
+### Images
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+I sourced the Images from Google. For the home page my search was for “families and individuals enjoying the outdoors”, as well as “disabled outdoor activities” for the thank you and contact us page. For our walks, I searched for the particular trails to select the pictures I wanted. On the equipment page, I am personally used to wearing the vibram shoes, so I wanted to incorporate the pair I own, as its description benefits from my experience. The other two images on the site were found through a google search.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Hero Image
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The hero image came about through a similar search for my other images. I like how the color of the sky helps break the page up from its two-color scheme. Originally, I’d have liked the h1 element “Welcome to Wonder Walkers” to sit about the mountain with some opacity, however it works just as well in its current position. Maybe that could be a future development.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### HTML
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Using WAVE, I had my site analysed and had no real errors in my code throughout the majority of the website.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The alerts that crop up throughout the site deal with the underlining issues in my code. An underlined piece of text tends to represent a link and I can imagine that a user of the page might feel that some of these are clickable (as some are). This is something to look in to in the future.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+An error occurs here on the contact us page. It appears as though the submit button sits below the footer. While it appears this way through validation, I have seen no sign of it when testing my site on a laptop or a mobile device. This issue requires further inspection.
 
-## FAQ about the uptime script
+### CSS
+I am pleased to see that no CSS errors were found.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Lighthouse Testing
 
-**How will this affect me?**
+The lighthouse testing threw up some good scores, and I am pleased with this.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Unicorn revealer
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+I was made aware of an extension on chrome that showed me particular issues with the layout of my site.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+The unicorn revealer adds “sparkles” as a guide to where the layout of my site might hit some issues on different responsive devices. An incredibly useful extension.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Web browsers
+I used both Google Chrome and Safari to view my web page, and I could see no issues on these two browsers.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+### Issues found
 
-Happy coding!
+I feel that Issues arose from the sizing of elements. As soon as the pixel width decreased, the issues appeared which has led to a lot of specifically targeted media queries. I feel in the future, it is important for me to utilise the height and width properties well to avoid so many media queries in the future.
+
+Despite having a lot of media queries for specific elements, I like how the project comes together and it is responsive to the majority of devices.
+
+I felt that I wasn’t as clued up about flex-box as I felt I was and that contributed to several issues, such as columning and alignment and getting my layout the way I wanted to. For future projects, I will apply this in a much better way.
+
+My desire to have an accessible navigation bar on the left hand side of the page caused me some problems. My understanding is that it's best practice not to use a float value, however as mentioned, the lack of flex-box knowledge led me to use this method. Future projects will incorporate this, as mentioned
+
+### Future scope
+
+Future development of the site revolves around usability. 
+* I would like to incorporate a drop down navigation menu when the pixel size becomes smaller. 
+* As the page view changes, a link to the top of the page would prove useful. 
+* I’d like to include an aside that could allow for a live twitter feed for upcoming community outdoor events. This could also be used for Instagram posts, maybe with a relevant hashtag that could link to the site.
+* An about us section with images and bios about group founders and their personal inspirations. 
+* Links to more services to help those with accessibility issues.
+
+### Useful Sources & Thanks
+
+Whilst I used a lot of advice from the current curriculum at code institute useful websites include:-
+W3Schools
+Slack - code institute community
+Stack overflow
+Overall google searches.
+
+ 
+I’d like to give thanks to my mentor Lauren-Nicole, who has been able to show me what best practises I should take when developing a front-end website.
+
+Also the Code institute slack community who have assisted in any issues that have cropped up throughout my design.
+
+The opening screenshot was used from the following website:-
+https://ui.dev/amiresponsive
+
+Thank you for taking the time to go through my website, and I am open to recommendations and welcome critique. 
+
