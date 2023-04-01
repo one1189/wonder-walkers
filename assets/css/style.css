@@ -114,10 +114,11 @@ h1 {
 
 .master-container h2 {
     font-weight: bolder;
-    font-size: 32px;
-    padding: 20px 0 10px 0;
-    text-decoration: underline;
+    font-size: 28px;
+    background-color: #383838;
+    color: #f7f7f7;
 }
+
 
 /*targets specific div section*/
 .index-container {
@@ -143,7 +144,6 @@ h1 {
 }
 
 .melt {
-    text-decoration: underline;
     font-size: x-large;
 }
 
@@ -452,6 +452,10 @@ h1 {
         width: 280px;
         height: 160px;
     }
+
+    .master-container h2 {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -472,8 +476,10 @@ h1 {
     #description {
         width: 100%
     }
+}   
 
-    /*targgets images on all pages below 400px*/
+/*targets images on all pages below 420px*/
+@media screen and (max-width: 420px) {
     .intro-para img {
         height: 300px;
         width: 300px;
