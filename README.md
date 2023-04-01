@@ -1,4 +1,4 @@
-# Wonder Walkers
+# Wonder Walkers ---
 
 
 The static front-end website for a fictional group, known as the Wonder Walkers. This web page has been designed to promote the benefits of being outdoors and provide some inspirational guidance to its users. 
@@ -31,7 +31,7 @@ The bottom navigation links all open up separate tabs to instagram, facebook and
 
 ### Font
 
-The font for the website remains present throughout with no deviation. The font chosen was “Encode sans” weight 300. I feel the text is readable throughout the site, but perhaps the font size could have been bigger for larger screens.
+The font for the website remains present throughout with no deviation. The font chosen was "Encode sans” weight 300. I feel the text is readable throughout the site, but perhaps the font size could have been bigger for larger screens.
 
 
  
