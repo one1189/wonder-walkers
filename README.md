@@ -36,12 +36,12 @@ The font for the website remains present throughout with no deviation. The font 
 
 ### Images
 
-I sourced the Images from Google. For the home page my search was for “families and individuals enjoying the outdoors”, as well as “disabled outdoor activities” for the thank you and contact us page. For our walks, I searched for the particular trails to select the pictures I wanted. On the equipment page, I am personally used to wearing the vibram shoes, so I wanted to incorporate the pair I own, as its description benefits from my experience. The other two images on the site were found through a google search.
+I sourced the Images from Google. For the home page my search was for “families and individuals enjoying the outdoors”, as well as “disabled outdoor activities” for the thank you and contact us page. For our walks, I searched for the particular trails to select the pictures I wanted. On the equipment page, I am personally used to wearing the vibram shoes, so I wanted to incorporate the pair I own, as its description benefits from my experience. The other two images on the page were found through a google search.
 
 ### Hero Image
 ![Hero image](/assets/images/readme%20images/hero-image-and-heading.png)
 
-The hero image came about through a similar search for my other images. I like how the color of the sky helps break the page up from its two-color scheme. Originally, I’d have liked the h1 element “Welcome to Wonder Walkers” to sit about the mountain with some opacity, however it works just as well in its current position. Maybe that could be a future development.
+The hero image came about through a similar search for my other images. I like how the color of the sky helps break the page up from its two-color scheme. Originally, I’d have liked the h1 element “Welcome to Wonder Walkers” to sit above the mountain with some opacity, however it works just as well in its current position. Maybe that could be a future development.
 
 ## Testing
 
@@ -57,7 +57,7 @@ Using WAVE, I had my site analysed and had no real errors in my code throughout 
 
 ![WAVE alerts](/assets/images/readme%20images/wave-test-3.png)
 
-The alerts that crop up throughout the site deal with the underlining issues in my code. An underlined piece of text tends to represent a link and I can imagine that a user of the page might feel that some of these are clickable (as some are). This is something to look in to in the future.
+The alerts that crop up throughout the site deal with the underlining issues in my styling. An underlined piece of text tends to represent a link and I can imagine that a user of the page might feel that some of these are clickable (as some are). This is something to look in to in the future.
 
 ![WAVE error](/assets/images/readme%20images/wave-test-1.png)
 
@@ -91,7 +91,7 @@ I used both Google Chrome and Safari to view my web page, and I could see no iss
 ![Safari](/assets/images/readme%20images/safari-test.png)
 
 ## Deployment
-The following Depoloyment stages were taken. When working on my projet I would have to stage regular commits in Gitpod.
+The following Depoloyment stages were taken. When working on my project I would have to stage regular commits in Gitpod.
 
 * `git add .` - Adds saved files to Git's staging area
 * `git commit -m ""` - Commits the saved files to the local repository
@@ -100,14 +100,14 @@ The following Depoloyment stages were taken. When working on my projet I would h
 After pushing the commits, it is imperitive to deploy the site, and make it live. To do this:-
 
 * Open Github and find the repository we are looking to deploy.
-* Click on settings on the right hand side on the repository.
+* Click on settings on the right hand side of the repository.
 * Under code and automation, find the option pages.
 * Under Build and Depoloyment -Source- select deploy from branch.
 * The site is now live.
 
 ## Issues found
 
-I feel that Issues arose from the sizing of elements. As soon as the pixel width decreased, the issues appeared which has led to a lot of specifically targeted media queries. I feel in the future, it is important for me to utilise the height and width properties well to avoid so many media queries in the future.
+I feel that Issues arose from the sizing of elements. As soon as the pixel width decreased, the issues appeared which has led to a lot of specifically targeted media queries. I feel in the future, it is important for me to utilise the height and width properties well, to avoid so many media queries in the future.
 
 Despite having a lot of media queries for specific elements, I like how the project comes together and it is responsive to the majority of devices.
 
