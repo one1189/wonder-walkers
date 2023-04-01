@@ -13,8 +13,9 @@ The site needed to be static and responsive, and incorporate using HTML and CSS 
 
 ## Design
 
-(wireframe image)
-This is how I wanted it to look
+![Initial design idea](/assets/images/readme%20images/wireframe-drawing.jpg)
+
+This is how I originally wanted my webpage to look. I believe I have nearly achieved this, however I would have liked to have had more content separation. Everything looks to be in column, and whilst this makes the pages flow well, a contrasting row or two may have made it pop more.
 
 ### Navigation
 
@@ -92,11 +93,19 @@ I used both Google Chrome and Safari to view my web page, and I could see no iss
 ## Deployment
 The following Depoloyment stages were taken. When working on my projet I would have to stage regular commits in Gitpod.
 
-* `git add .` 
-* `git commit -m ""`
-* `git push`
+* `git add .` - Adds saved files to Git's staging area
+* `git commit -m ""` - Commits the saved files to the local repository
+* `git push` - Pushes the commits
 
-### Issues found
+After pushing the commits, it is imperitive to deploy the site, and make it live. To do this:-
+
+* Open Github and find the repository we are looking to deploy.
+* Click on settings on the right hand side on the repository.
+* Under code and automation, find the option pages.
+* Under Build and Depoloyment -Source- select deploy from branch.
+* The site is now live.
+
+## Issues found
 
 I feel that Issues arose from the sizing of elements. As soon as the pixel width decreased, the issues appeared which has led to a lot of specifically targeted media queries. I feel in the future, it is important for me to utilise the height and width properties well to avoid so many media queries in the future.
 
@@ -106,7 +115,7 @@ I felt that I wasn’t as clued up about flex-box as I felt I was and that contr
 
 My desire to have an accessible navigation bar on the left hand side of the page caused me some problems. My understanding is that it's best practice not to use a float value, however as mentioned, the lack of flex-box knowledge led me to use this method. Future projects will incorporate this, as mentioned
 
-### Future scope
+## Future scope
 
 Future development of the site revolves around usability. 
 * I would like to incorporate a drop down navigation menu when the pixel size becomes smaller. 
@@ -115,7 +124,7 @@ Future development of the site revolves around usability.
 * An about us section with images and bios about group founders and their personal inspirations. 
 * Links to more services to help those with accessibility issues.
 
-### Useful Sources & Thanks
+## Useful Sources & Thanks
 
 Whilst I used a lot of advice from the current curriculum at code institute useful websites include:-
 
