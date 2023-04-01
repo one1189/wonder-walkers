@@ -103,10 +103,11 @@ Future development of the site revolves around usability.
 ### Useful Sources & Thanks
 
 Whilst I used a lot of advice from the current curriculum at code institute useful websites include:-
-W3Schools
-Slack - code institute community
-Stack overflow
-Overall google searches.
+
+* W3Schools https://www.w3schools.com/default.asp
+* Slack - Code Institute community
+* Stack overflow https://stackoverflow.com/
+* Overall google searches.
 
  
 I’d like to give thanks to my mentor Lauren-Nicole, who has been able to show me what best practises I should take when developing a front-end website.
